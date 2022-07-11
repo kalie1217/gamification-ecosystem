@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eco_data title="대한민국" subtitle="생태계 " subtitleX="124" subtitleY="13" countryX="269"
+    countryY="142">
+    <instructions title="Instructions">
+        <content>Learn about the ecosystems of South Korea.<br/><br/>Select an ecosystem from the map by
+            clicking on it. Then explore the flora and fauna in the picture to learn
+            more about them.</content>
+    </instructions> 
+
+    /*1*/ 
+
+    <region id="ecoRegion1" label="산악지대"
+        labelWidthBox="200" xpos="377" ypos="38" path="images/ecosystems/scene01_bg.png"
+        isTextOutside="true">
+        <description>이 험한 산악지대은 한반도 전체의 70%를 차지하고 있습니다. 산이 일반적으로 높지는 않지만, 매우 가파른 곳도 있습니다.</description>
+        <inhabitant id="1a" orientation="right" xpos="70" ypos="1" width="111" height="140">
+            <label>가래나무 (<i> 추자수</i>)</label>
+            <description>이 단단한 나무에서 식용의 열매가 열립니다. 가래나무의 뿌리는 민간 요법에서 암 치료에  사용됩니다.</description>
+        </inhabitant>
+        <inhabitant id="1b" orientation="left" xpos="430" ypos="20" width="210" height="280">
+            <label>물푸레나무</label>
+            <description>물푸레나무 견목은 여러 목재 제품 생산에 쓰입니다. 나무 껍질은 민간 요법에서 설사와 눈의 통증과 부기를 치료하는 데 사용됩니다. </description>
+        </inhabitant>
+        <inhabitant id="1c" orientation="left" xpos="1" ypos="130" width="250" height="175">
+            <label>불곰</label>
+            <description>불곰은 일반적으로 인간을 피하지만, 놀라거나 위협당하면 공격할 수 있습니다.</description>
+        </inhabitant>
+        <inhabitant id="1d" orientation="right" xpos="220" ypos="267" width="70" height="48">
+            <label>무당개구리</label>
+            <description>무당개구리의 피부를 통해 분비되는 독소는 일반적으로 인간에게 치명적인 해를 주진 않지만, 섭취하거나 베인 부위를 통해 흡수되면 불편 함을 유발할 수 있습니다.</description>
+        </inhabitant>
+        <inhabitant id="1e" orientation="right" xpos="436" ypos="246" width="100" height="78">
+            <label>구렁이</label>
+            <description>구렁이는 한반도에서 가장 큰 토착뱀입니다. 정부의 보호를 받고 있습니다.</description>
+        </inhabitant>
+        <inhabitant id="1f" orientation="right" xpos="24" ypos="15" width="50" height="112">
+            <label>크낙새</label>
+            <description>크낙새는 천연기념물 제 197 호로 지정되어 정부의 특별 보호를 받고 있습니다.</description>
+        </inhabitant>
+        <inhabitant id="1g" orientation="right" xpos="150" ypos="100" width="240" height="175">
+            <label>팽나무</label>
+            <description>팽나무의 쓴 씨에는 시안화물이 소량 포함되어 있어 호흡을 자극합니다. 껍질로 만든 혼합물은 감기와 인후염 치료에 사용됩니다. </description>
+        </inhabitant>
+    </region> 
+
+
+    /*2*/ <region id="ecoRegion2" label="언덕, 강, 계곡" labelWidthBox="200" xpos="92"
+        ypos="105" path="images/ecosystems/scene02_bg.png" isTextOutside="false">
+        <description>이 지역은 영하의 추운 겨울과 비가 많은 여름이 특징 입니다.</description>
+        <inhabitant id="2a" orientation="left" xpos="295" ypos="75" width="158" height="178">
+            <label>반달가슴곰<i>(히말라야곰)</i></label>
+            <description>반달곰이라고 불리는 가슴에 반달무늬가 있는 이곰은 공격적 일 수 있습니다. 서식지 손실과 담낭 및 가죽 사냥으로 인해 멸종위기 취약종으로 보호받고 있습니다.</description>
+        </inhabitant>
+        <inhabitant id="2b" orientation="right" xpos="110" ypos="240" width="100" height="50">
+            <label>불독사</label>
+            <description>이 뱀의 길이는 최대 76cm (30 인치)까지 이르며, 신경계와 심혈계를 공격하는 독을 방출합니다.</description>
+        </inhabitant>
+        <inhabitant id="2c" orientation="left" xpos="412" ypos="215" width="190" height="90">
+            <label>백로</label>
+            <description>멸종위기 취약종으로 보호받고있는 백로는 해안 부근의 갈대밭, 얕은 강어귀나 갯벌 주위에서 삽니다. 무리를 지어 번식하며, 아름다운 깃털로 유명합니다.
+				</description>
+        </inhabitant>
+        <inhabitant id="2d" orientation="right" xpos="6" ypos="58" width="109" height="186">
+            <label>산양</label>
+            <description>산양은 염소와 닮았으며, 멸종위기 취약종으로 분류됩니다. 높은 산맥에 무리를 지어 살며 천적이 거의 없습니다.</description>
+        </inhabitant>
+        <inhabitant id="2e" orientation="left" xpos="8" ypos="260" width="90" height="60">
+            <label>자라</label>
+            <description>자라는 한국의 토종 거북이며, 멸종위기 취약종으로 보호 받고 있습니다. </description>
+        </inhabitant>
+        <inhabitant id="2f" orientation="left" xpos="109" ypos="0" width="96" height="204">
+            <label>잣나무</label>
+            <description>잣나무는 산지에서 자라며, 잣나무의씨가 잣입니다.
+				</description>
+        </inhabitant>
+        <inhabitant id="2g" orientation="right" xpos="185" ypos="150" width="124" height="70">
+            <label>봉작고사리</label>
+            <description>봉작고사리로 만든 차는 감기, 천식 및 발열로 인한 코막힘과 기침 치료에 좋습니다.</description>
+        </inhabitant>
+    </region>
+
+    /*3*/
+	https://www.flickr.com/photos/traveloriented/14493319650/in/photolist-o5J3Zy-onceZm-DV9XTn-o4rHVB-omiqov-okoLAS-6E8urr-o5673b-okTxk5-ookMfM-o4qS79-5izfuX-on1JJu-o4qQMA-oke9vA-om9H8H-o566AQ-TLdzLg-Bcdiyg-okHHRN-ohmVoN-o5JbXM-omWrjV-o5JchV-o3VTxq-G1CUi5-o73W9A-FvtpoB-o568Fv-oowddb-ooxHse-7WRdGW-oowf6Q-dNkdyE-ohd4tZ-oUMnMV-Fvtoen-q4SfPf-u9oFT2-q6WZ7F-paatxo-q6WYYp-dpUcP5-q6XfrD-paasiE-paasM5-pPBsDW-q6WZGP-paasGf-q6MhQc
+    <region id="ecoRegion3" label="해안 산림지대" labelWidthBox="200" xpos="68"
+        ypos="252" path="images/ecosystems/scene03_bg.png" isTextOutside="true">
+        <description>이 지역은 여름에는 따뜻하고 습합니다. 겨울은 일반적으로 시원하고 건조합니다.</description>
+        <inhabitant id="3a" orientation="left" xpos="516" ypos="0" width="112" height="225">
+            <label>감탕나무</label>
+            <description>이 나무의 어린 잎은 익혀서 먹을 수 있지만, 과일과 씨에는 독이 있을 수 있습니다.</description>
+        </inhabitant>
+      
+        <inhabitant id="3c" orientation="right" xpos="158" ypos="0" width="129" height="149">
+            <label>마도요</label>
+            <description>마도요는 갯벌에서 사는 게나 지렁이를 먹습니다. 멸종위기 등급 중 준위협종으로 분류됩니다.</description>
+        </inhabitant>
+        <inhabitant id="3d" orientation="right" xpos="11" ypos="13" width="170" height="251">
+            <label>흑두루미</label>
+            <description>흑두루미는 한국에서 겨울을 보냅니다. 두루미들이 서식하는 습지의 파손으로 인해 멸종위기 취약종으로 보호 받고 있습니다.</description>
+        </inhabitant>
+        <inhabitant id="3e" orientation="left" xpos="439" ypos="194" width="126" height="139">
+            <label>멧돼지</label>
+            <description>멧돼지는 위협을 느끼면 공격적으로 돌변하며, 무게가 90kg (200lbs)까지 됩니다.</description>
+        </inhabitant>
+        <inhabitant id="3f" orientation="right" xpos="365" ypos="0" width="198" height="147">
+            <label>동백나무 </label>
+            <description>동백꽃의 관목에서 체취되는 차기름은 조미료와 식용유로 사용됩니다. 빨강, 분홍색 또는 흰색 꽃이 핍니다.</description>
+        </inhabitant>
+        <inhabitant id="3g" orientation="left" xpos="200" ypos="0" width="170" height="87">
+            <label>녹나무</label>
+            <description>녹나무는 요리용 향신료나 방충제로 사용되는 장뇌라는 화합물의 생산에 쓰이며, 벼룩을 제거하는 데도 사용됩니다.</description>
+        </inhabitant>
+    </region>
+</eco_data>
